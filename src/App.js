@@ -13,9 +13,15 @@ function App() {
         <p>
           <span className="font-mono">
             {data.ip}
-            <br />(<a href={`https://bgp.he.net/${data.asn}`}>
+            <br />(
+            <a
+              href={`https://bgp.he.net/${data.asn}`}
+              target="_blank"
+              rel="noreferrer"
+            >
               {data.asn}
-            </a> - {data.org})
+            </a>{" "}
+            - {data.org})
           </span>
         </p>
         {error && <p style={{ color: "red" }}>{error}</p>}

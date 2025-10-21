@@ -31,8 +31,11 @@
   color: white;
 }
 
-.App-link {
+a {
   color: #61dafb;
+}
+
+.App-link {
   text-decoration: none;
   margin-top: 1rem;
   font-size: 0.7em;
